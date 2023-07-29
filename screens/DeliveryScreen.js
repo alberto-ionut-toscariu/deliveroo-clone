@@ -27,7 +27,7 @@ const DeliveryScreen = () => {
                         </View>
                         <Image
                             source={{
-                                uri: 'https://p7.hiclipart.com/preview/820/754/563/motorcycle-courier-euclidean-vector-green-motorcycle-courier.jpg',
+                                uri: 'https://links.papareact.com/wru',
                             }}
                             className='h-20 w-20'
                         />
@@ -44,7 +44,7 @@ const DeliveryScreen = () => {
                 initialRegion={{
                     latitude: restaurant.lat,
                     longitude: restaurant.long,
-                    latitudeelta: 0.005,
+                    latitudeDelta: 0.005,
                     longitudeDelta: 0.005
                 }}
                 className='flex-1 mt-10 z-0'
